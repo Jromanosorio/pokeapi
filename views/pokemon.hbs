@@ -1,0 +1,24 @@
+{{>buscador}}
+
+<div class="card">
+
+    <div class="btns">
+        <div class="btnBlue"></div>
+        <div class="btnYellow"></div>
+        <div class="btnYellow"></div>
+    </div>
+
+    <img class="pokemon" src="{{datos.imagen}}" alt="">
+    <div class="nombre_pokemon">
+        <p> {{datos.nombre}} </p>
+    </div>
+    <div>
+        <p class="numero_pokedex"> #{{datos.numero}} </p>
+    </div>
+    <div class="tipos">
+        <p id="tipo1" class="">{{datos.tipo1}}</p>
+        <p id="tipo2" class="">{{datos.getTipo2}}</p>
+    </div>
+</div>
+
+{{>footer}}

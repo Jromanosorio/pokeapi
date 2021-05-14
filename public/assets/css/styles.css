@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 1rem;
+    box-sizing: border-box;
+}
+
+body, html{
+    width: 100%;
+    height: 100%;
+}
+
+h1{
+    margin: auto;
+    color: #FFFF00;
+    font-weight: 300;
+    font-size: 25px;
+    font-family: 'Bangers', cursive;
+}
+
+.navbar{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #ec414b;
+    padding: 15px;
+}
+
+.formulario{
+    width: 100%;
+    display: flex;
+}
+
+.buscar{
+    width: 11em;
+    margin: 0 15px;
+    padding: .400rem 1.5rem .400rem .5rem;
+    color: #495057;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+}
+
+.btnBuscar{
+    padding: .400rem .75rem;
+    color: white;
+    border-radius: .25rem;
+    border: 1px solid white;
+    background: none;
+}
+
+.card{
+    width: 20em;
+    height: 30em;
+    margin: 3% auto;
+    text-align: center;
+    background-color: #ec414b;
+    border-top-right-radius: 40px;
+    filter: contrast(150%);
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.55);
+}
+
+.btns{
+    display: flex;
+}
+
+.btnYellow{
+    width: 2em;
+    height: 2em;
+    margin: 1.5em 0.5em;
+    border-radius: 50%;
+    background-color: yellowgreen;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.65);
+}
+
+.btnBlue{
+    width: 3em;
+    height: 3em;
+    margin: 1em;
+    border-radius: 50%;
+    background-color: lightblue;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.65);
+}
+
+.pokemon{
+    width: 13em;
+    height: 13em;
+    margin: 1em 3.5em;
+    background-color: #fff;
+    border-radius: 20px;
+    filter: contrast(70%);
+}
+
+.nombre_pokemon{
+    width: 12em;
+    height: 2em;
+    margin: 0.5em auto;
+    padding: 0.5em;
+    border-radius: 15px;
+    background-color: yellowgreen;
+    font-family: 'Bangers', cursive;
+}
+
+.numero_pokedex{
+    color: white;
+    font-size: 18px;
+    font-weight: 300;
+    font-family: 'Bangers', cursive;
+}
+
+.tipos{
+    width: 15em;
+    height: 2em;
+    margin: 0 auto;
+    display: flex;
+}
+
+#tipo1, #tipo2{
+    width: 6em;
+    height: 2em;
+    margin: 0.5em auto;
+    padding: 0.5em; 
+    border: 1px solid white;
+    border-radius: 15px;
+    font-family: 'Bangers', cursive;
+}
+
+.error{
+    margin: 5em auto;
+    text-align: center;
+    font-family: 'Pangolin', cursive;
+}
+
+.errorimg{
+    width: 20em;
+    height: 15em;
+    margin-bottom: 1em;
+}
