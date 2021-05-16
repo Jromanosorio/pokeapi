@@ -127,23 +127,23 @@ h1, .numero_pokedex, .numero_pokedex{
     margin: 0.25em auto;
 }
 
-.error, .card{
+.error, .card, .loading{
     text-align: center;
 }
 
-.error{
+.error, .loading{
     margin: 5em auto;
     font-family: 'Pangolin', cursive;
 }
 
-.card, .errorimg, .errortext{
+.card, .errorimg, .errortext, .loading_img, .loading_text{
     width: 20em;
 }
 
-.errortext{
+.errortext, .loading_text{
     margin: 1.5em auto;
 }
 
-.errorimg{
+.errorimg, .loading_img{
     height: 15em;
 }
