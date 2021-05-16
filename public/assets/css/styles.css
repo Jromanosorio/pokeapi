@@ -5,140 +5,145 @@
     box-sizing: border-box;
 }
 
-body, html{
+body, html, .formulario, .navbar{
     width: 100%;
+}
+
+body, html{
     height: 100%;
 }
 
 h1{
     margin: auto;
     color: #FFFF00;
-    font-weight: 300;
     font-size: 25px;
-    font-family: 'Bangers', cursive;
+}
+
+.navbar, .formulario, .btns, .tipos{
+    display: flex;
+}
+
+.navbar, .card{
+    background-color: #ec414b;
 }
 
 .navbar{
-    width: 100%;
     height: 70px;
-    display: flex;
     justify-content: space-between;
-    background-color: #ec414b;
     padding: 15px;
 }
 
-.formulario{
-    width: 100%;
-    display: flex;
+.buscar, .btnBuscar{
+    border-radius: .25rem;
 }
 
 .buscar{
-    width: 13em;
-    margin: 0 5px 0 10px;
-    padding: .400rem .5rem;
+    width: 11em;
+    margin: 0 12px;
+    padding: .400rem 1rem;
     color: #495057;
     border: 1px solid #ced4da;
-    border-radius: .25rem;
 }
 
 .btnBuscar{
     padding: .400rem .60rem;
     color: white;
-    border-radius: .25rem;
-    border: 1px solid white;
     background: none;
 }
 
-.card{
-    width: 20em;
-    height: 30em;
-    margin: 3% auto;
-    text-align: center;
-    background-color: #ec414b;
-    border-top-right-radius: 40px;
-    filter: contrast(150%);
+.btnBuscar, #tipo1, #tipo2{
+    border: 1px solid white;
+}
+
+.card, .btnBlue, .btnYellow{
     box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.55);
 }
 
-.btns{
-    display: flex;
+.btnBlue, .btnYellow{
+    border-radius: 50%;
+}
+
+.card{
+    height: 30em;
+    margin: 3% auto;
+    border-top-right-radius: 40px;
+    filter: contrast(150%);
 }
 
 .btnYellow{
     width: 2em;
     height: 2em;
     margin: 1.5em 0.5em;
-    border-radius: 50%;
     background-color: yellowgreen;
-    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.65);
 }
 
 .btnBlue{
     width: 3em;
     height: 3em;
     margin: 1em;
-    border-radius: 50%;
     background-color: lightblue;
-    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.65);
 }
 
 .pokemon{
-    width: 13em;
     height: 13em;
     margin: 1em 3.5em;
-    background-color: #fff;
+    background-color: white;
     border-radius: 20px;
     filter: contrast(70%);
 }
 
-.nombre_pokemon{
-    width: 12em;
+.pokemon, .nombre_pokemon, .tipos{
+    width: 13em;
+}
+
+.nombre_pokemon, .tipos{
     height: 2em;
     margin: 0.5em auto;
+}
+
+.nombre_pokemon, #tipo1, #tipo2{
     padding: 0.5em;
     border-radius: 15px;
-    background-color: yellowgreen;
     font-family: 'Bangers', cursive;
+}
+
+h1, .numero_pokedex, .numero_pokedex{
+    font-weight: 300;
+    font-family: 'Bangers', cursive;
+}
+
+.nombre_pokemon{
+    background-color: yellowgreen;
 }
 
 .numero_pokedex{
     color: white;
     font-size: 18px;
-    font-weight: 300;
-    font-family: 'Bangers', cursive;
-}
-
-.tipos{
-    width: 15em;
-    height: 2em;
-    margin: 0 auto;
-    display: flex;
 }
 
 #tipo1, #tipo2{
     width: 6em;
     height: 2em;
-    margin: 0.5em auto;
-    padding: 0.5em; 
-    border: 1px solid white;
-    border-radius: 15px;
-    font-family: 'Bangers', cursive;
+    margin: 0.25em auto;
+}
+
+.error, .card{
+    text-align: center;
 }
 
 .error{
     margin: 5em auto;
-    text-align: center;
     font-family: 'Pangolin', cursive;
 }
 
-.errorimg{
+.card, .errorimg, .errortext{
     width: 20em;
-    height: 15em;
-    margin-bottom: 1em;
 }
 
-@media screen and (max-width: 575px){
-    .buscar{
-        width: 12em;
-    }
+.errortext{
+    margin: 1.5em auto;
+}
+
+.errorimg{
+    height: 15em;
 }

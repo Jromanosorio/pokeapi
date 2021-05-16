@@ -32,7 +32,7 @@ app.post('/', (req, res) => {
     pokemon = req.body.name
 
     if (pokemon > 898) {
-        
+
         res.render('error')
 
     } else {
@@ -60,10 +60,6 @@ app.post('/', (req, res) => {
 
                 res.render('pokemon', { datos })
 
-            })
-            .catch(err => {
-                console.log('Error al realizar la consulta' + err);
-                res.render('error')
             })
     }
 
