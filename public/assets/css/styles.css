@@ -33,16 +33,16 @@ h1{
 }
 
 .buscar{
-    width: 11em;
-    margin: 0 15px;
-    padding: .400rem 1.5rem .400rem .5rem;
+    width: 13em;
+    margin: 0 5px 0 10px;
+    padding: .400rem .5rem;
     color: #495057;
     border: 1px solid #ced4da;
     border-radius: .25rem;
 }
 
 .btnBuscar{
-    padding: .400rem .75rem;
+    padding: .400rem .60rem;
     color: white;
     border-radius: .25rem;
     border: 1px solid white;
@@ -135,4 +135,10 @@ h1{
     width: 20em;
     height: 15em;
     margin-bottom: 1em;
+}
+
+@media screen and (max-width: 575px){
+    .buscar{
+        width: 12em;
+    }
 }
