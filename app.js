@@ -29,9 +29,9 @@ app.get('/', (req, res) => {
 
 app.post('/', (req, res) => {
 
-    pokemon = req.body.name
+    pokemon = parseInt(req.body.name, 10)
 
-    if (pokemon > 898) {
+    if (pokemon <= 0 || pokemon > 898) {
 
         res.render('error')
 
